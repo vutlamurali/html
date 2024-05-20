@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Patient Intake Form</h1>
+    <p>Please fill out the following at least 24 hours before your appointment. Thank you in advance!</p>
+    <form>
+        <fieldset>
+        <label for="first name">Name</label><br>
+        <input type="text" id="first name" placeholder="first name" required> 
+        <input type="text" id="last name"  placeholder="last name"><br><br>
+
+        <label>Address:</label><br>
+        <input type="text" placeholder=" Street Address" >
+       <input type="text" placeholder="Address Line2">
+        <br><br>
+        <label for="City">City:-</label>
+        <input type="text">
+        <br><br>
+
+        <label for="State">State/Region/Province:-</label>
+        <input type="text" id="State">
+         <br><br>
+
+         <label for="Postal">Postal / Zip Code:-</label>
+        <input type="text" id="Postal">
+        <br><br>
+
+        <label for="country names"> Country:-</label>
+        <select>
+            <option value="-select-">-select-</option>
+            <option value="Af">af</option>
+            <option value="india">india</option>
+            <option value="america">America</option>
+        </select>    
+        <br><br>
+    
+        <label for="number">Phone:-</label>
+        <input type="tel" id="number" name="PHONE NUMBER">
+        <br><br>
+        <label for="Email">Email:-</label> 
+        <input type="mail" id="Email" name="Email">
+        <br><br>
+        <label for="">Password:</label>
+        <input type="password" name="password">
+        <br><br>
+        <label for="date of birth">Date OF Birth:-</label> 
+        <INPUT type="date" id = "date of birth" name="DATEOFBIRTH">
+            <br><br>
+
+        <label for="Gender"><b>Gender:</b></label>
+        <br>
+        <input type="radio" id="Gender" name="Gender">Male <br>
+        <input type="radio" id="Gender" name="Gender">Female <br>
+        <input type="radio" id="Gender" name="Gender">Rather not say <br>
+        <input type="radio" id="Gender" name="Gender">Other <br>
+        <br><br>
+        <label for="">Emergency Contact Person:</label>
+        <br>
+        <input type="text" placeholder=" First Name">
+        <input type="text" name="Last NAME" placeholder="Last Name">
+        <br><br>
+        <label for="EMERgency Contact Person">Emergency Contact Number:</label>
+        <input type="number" id="EMERgency Contact Person" name="Emergency Contact Number">
+        <br><br>
+        <label for="Insurance Policy Centre">Insurance Policy Centre:</label>
+        <input type="text" id="Insurance Policy Centre" name="Insurance Policy Centre" >
+        <br><br>
+        <label for="Insurance Plan">Insurance Plan:</label>
+        <input type="text" id="Insurance Plan" name="Insurance Plan">
+        <br><br>
+
+
+        <h3>Select any medical conditions that apply:</h3>
+        <input type="checkbox">
+        <label for="Anxiety">Anxiety/Depression</label><br>
+        <input type="checkbox" id="Anxiety" name="Anxiety/Depression">
+        <label for="Allergies">Allergies/Sensitive skin</label><br>
+        <input type="checkbox" id="Allergies" name="Allergies/Sensitive skin">
+        <label for="Digestive issues">Digestive issues</label><br>
+        <input type="checkbox" id="Digestive issues" name="Digestive issues"> 
+        <label for="Blood pressure">Blood pressure</label><br>
+        <input type="checkbox" id="Blood pressure" name="Blood pressure">
+        <label for="Epilepsy">Epilepsy</label><br>
+        <input type="checkbox" id="Epilepsy" name="Epilepsy">
+        <label for="Diabetes">Diabetes</label><br>
+        <input type="checkbox" id="Diabetes" name="Diabetes">
+        <label for="Cancer">Cancer (or in remission)</label><br>
+        <input type="checkbox" id="Cancer" name="Cancer">
+        <label for="">Injuries</label><br>
+        <input type="checkbox">
+        <label for="">Injuries</label><br>
+        <input type="checkbox">
+        <label for="">None of the above</label><br>
+        <input type="checkbox">
+        <label for="">Other</label><br>
+    
+        <p>Are you pregnant?</p>
+        <input type="radio" name="Are you pregnant">
+        <label for="">Yes</label><br>
+        <input type="radio" name="Are you pregnant">
+        <label for="">No</label><br>
+        
+        <p>Have you had any surgeries in the past one year?</p>
+        <input type="radio" name="surgeries in the past one year">
+        <label for="surgeries">Yes</label><br>
+        <input type="radio"  id="surgeries"  name="surgeries in the past one year">
+        <label for="">No</label><br>
+
+        <p>Are you under a physician's care?</p>
+        <input type="radio" name="physician's care">
+        <label for="">Yes</label><br>
+        <input type="radio" name="physician's care">
+        <label for="">No</label><br>
+        <br>
+
+        <h2>Contact preference:</h2>
+        <p>Your personal information will only be used for treatment purposes and will never be shared without your consent. You can change your preference at any time by contacting us.
+        </p>
+        <input type="checkbox">
+        <label for="">Email</label><br>
+        <input type="checkbox" >
+        <label for="">SMS</label><br>
+        <input type="checkbox">
+        <label for="">Phone</label><br>
+        <input type="checkbox">
+        <label for="">Any of the above</label><br>
+        <br>
+
+        <h3>Terms and Conditions: </h3>
+        <input type="textarea" placeholder="you terms and conditions go here..."><br>
+        <input type="checkbox">
+        <label for="">I accept the Terms and Conditions.</label>
+        <br>
+        <input type="checkbox">
+        <label for="">Declaration: The information I have provided regarding my medical details is accurate. I will promptly notify the massage centre of any future changes to my health. </label>
+        <br><br>
+
+        <h2>Upload Documents* </h2>
+        <input type="file" multiple ><br><br>
+        <label for="">color</label>
+        <input type="color">
+        <br><br>
+
+
+
+    
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <br>
+        <label for="enter fav furit:"></label>
+        <input type="list" id="enter fav furit" list="furits" name="furit">
+    <datalist id="furits">
+        <option>applet</option>
+        <option>bannan</option>
+        <option>pinapple</option>
+        <option>chery</option>
+        <option>strbwery</option>
+    </datalist>
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
