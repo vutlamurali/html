@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .md{
+            background-color: blanchedalmond;
+            display: grid;
+            grid-template-columns:repeat(4,1fr);
+            /* grid-template-rows: 100px 100px; */
+            grid-auto-rows: 100px;
+            gap:10px;
+            border:2px solid;
+
+        }
+        .child{
+            background-color: blue;
+            font-size: 20px;
+            text-align: center;
+        }
+        .c2{
+            grid-column-start:2;
+            grid-column-end:4;
+
+        }
+        .c1{
+            grid-row-start: 1;
+            grid-row-end:4;
+        }
+       .c6{
+        grid-column-start: 4;
+        grid-row-start:2;
+        grid-row-end:4;
+       }
+       
+        
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="md">
+        <div class="child c1">1</div>
+        <div class="child c2">2</div>
+        <div class="child c3">3</div>
+        <div class="child c4">4</div>
+        <div class="child c5">5</div>
+        <div class="child c6">6</div>
+        <div class="child c7">7</div>
+        <div class="child c8">8</div>
+        <!-- <div class="child c9">9</div>
+        <div class="child c10">10</div>
+        <div class="child c11">11</div>
+        <div class="child c12">12</div> -->
+    </div>
+    
+</body>
+</html>
